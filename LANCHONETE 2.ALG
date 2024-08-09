@@ -21,6 +21,7 @@ se (oplanche="s") entao
     escreval ("5- X-Egg.......R$14.00")
     escreval ("6- X-Tudo......R$18.00")
     escreval ("7- Kids........R$10.00")
+    escreval ("8- Mendigo.....R$20.00")
     leia (la)
     
     escolha la
@@ -38,6 +39,8 @@ se (oplanche="s") entao
            pl:=18
          caso 7
            pl:= 10
+         caso
+           pl:= 20
          outrocaso
             escreval ("lanche inexistente aqui")
          fimescolha
