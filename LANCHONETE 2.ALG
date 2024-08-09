@@ -40,7 +40,7 @@ se (oplanche="s") entao
          caso 7
            pl:= 10
          caso
-           pl:=10
+           pl:= 20
          outrocaso
             escreval ("lanche inexistente aqui")
          fimescolha
